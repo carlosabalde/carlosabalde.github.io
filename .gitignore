@@ -2,6 +2,7 @@
 .htaccess
 .DS_Store
 .sass-cache
+.vagrant
 Gemfile.lock
 _site/
 _drafts/

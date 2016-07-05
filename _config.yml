@@ -3,6 +3,7 @@ timezone: Europe/Madrid
 permalink: /blog/:title
 include: [".htaccess"]
 exclude: ["README.md", "LICENSE"]
+repository: carlosabalde/www.carlosabalde.com
 gems:
   - jekyll-feed
 
