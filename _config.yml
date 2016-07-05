@@ -1,8 +1,14 @@
 # General.
 timezone: Europe/Madrid
 permalink: /blog/:title
-include: [".htaccess"]
-exclude: ["README.md", "LICENSE"]
+include:
+  - '.htaccess'
+exclude:
+  - 'CNAME'
+  - 'Gemfile.*'
+  - 'LICENSE'
+  - 'README.md'
+  - 'Vagrantfile'
 repository: carlosabalde/www.carlosabalde.com
 gems:
   - jekyll-feed
