@@ -11,4 +11,4 @@ I've moved my blog away from Tumblr. This new site is powered by [Jekyll](https:
 
 <!--more-->
 
-I don't know why anybody would want to read my previous -or current- blog, but just in case you're interested on doing such a thing, the old site will remain available in [carlosabalde.tumblr.com](http://carlosabalde.tumblr.com).
+I don't know why anybody would want to read my previous -or current- blog, but just in case you're interested on doing such a thing, the old site will remain available at [carlosabalde.tumblr.com](http://carlosabalde.tumblr.com).
