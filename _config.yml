@@ -10,6 +10,7 @@ exclude:
   - 'README.md'
   - 'Vagrantfile'
 repository: carlosabalde/www.carlosabalde.com
+excerpt_separator: <!--more-->
 gems:
   - jekyll-feed
 

@@ -12,7 +12,11 @@
         <title>{{ site.name }}</title>
     {% endif %}
 
-    <meta name="description" content="{{ site.description }}">
+    {% if page.excerpt %}
+        <meta name="description" content="{{ page.excerpt | strip_newlines | strip_html }}">
+    {% else %}
+        <meta name="description" content="{{ site.description }}">
+    {% endif %}
 
     {% if site.google_verification %}
         <meta name="google-site-verification" content="{{ site.google_verify }}">
