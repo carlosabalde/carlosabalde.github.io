@@ -1,0 +1,24 @@
+# General.
+timezone: Europe/Madrid
+permalink: /blog/:title
+include: [".htaccess"]
+exclude: ["README.md", "LICENSE"]
+gems:
+  - jekyll-feed
+
+# Variables.
+name: Carlos Abalde
+google_verification: null
+google_analytics: UA-11266890-1
+
+# SASS.
+sass:
+  style: :compressed
+  sass_dir: _sass
+
+# Markdown.
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+highlighter: rouge

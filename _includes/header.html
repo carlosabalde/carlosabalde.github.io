@@ -1,0 +1,11 @@
+<div class="header">
+    <h1><a href="/">{{ site.name }}</a></h1>
+    <ul>
+        {% for item in site.data.navigation %}
+        <li>
+            <a href="{{ item.url }}">{{ item.title }}</a>
+            {% unless forloop.last %}/{% endunless %}
+        </li>
+        {% endfor %}
+    </ul>
+</div>
