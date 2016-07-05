@@ -7,13 +7,13 @@ tags:
   - dev
 ---
 
-As a developer and as a OSX user I use [iTerm2](https://www.iterm2.com) in a daily basis. It's open source, it's an awesome piece of software, and when you get familiar with features such as split panes, it's also an amazing productivity booster.
+As a developer and as a OSX user I use [iTerm2](https://www.iterm2.com) in a daily basis. It's an awesome open source piece of software. Besides, when you get familiar with features such as split panes, it's also an amazing productivity booster.
 
 <!--more-->
 
-On the other hand, from time to time I need to SSH to multiple severs to make some checks. For example, a few days ago I needed to SSH to 8 Varnish Cache and 3 Redis servers to check some log files, access to certain stats, etc. I needed to do that at 10:00 AM, then 20 minutes later again, then at 12:00 PM, etc. Every time I would need to create a new iTerm2 tab, then create enough panes, then execute SSH commands, etc. It looks like something a machine could do for me, isn't it?
+From time to time I need to SSH to multiple servers to make some checks. For example, a few days ago I needed to SSH to 8 Varnish Cache and 3 Redis servers to check some log files, access certain stats, etc. I needed to do that at 10 AM, then 20 minutes later again, then at 12 PM, etc. Every time I would need to create a new iTerm2 tab, then create enough panes, then execute SSH commands, etc. It looks like something a machine could do for me, isn't it?
 
-Of course [the answer is yes](https://www.iterm2.com/documentation-scripting.html). The pleasant surprise here was how extremely simple was creating a disposable trivial script to do the job. All panes and SSH connections ready in less than five seconds anytime I needed them. Combine this with the iTerm2 broadcasting feature and you'll understand what love is :)️
+Of course [the answer is yes](https://www.iterm2.com/documentation-scripting.html). The pleasant surprise here was how extremely simple it happened to be creating a disposable trivial script to do the job. All panes and SSH connections ready in less than five seconds anytime I needed them. Combine this with the iTerm2 broadcasting feature and you'll understand what love is :)️
 
     #! /usr/bin/osascript
 
