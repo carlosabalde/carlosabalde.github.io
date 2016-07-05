@@ -83,6 +83,15 @@ ul {
     }
 }
 
+@media screen and (max-width: $br) {
+    .garden {
+        padding-top: 30px;
+        pre {
+            display: none;
+        }
+    }
+}
+
 .footer {
     padding-top: 30px;
     text-align: right;
