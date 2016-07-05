@@ -1,6 +1,6 @@
 # General.
 timezone: Europe/Madrid
-permalink: /blog/:title
+permalink: /blog/:year/:month/:day/:title
 include:
   - '.htaccess'
 exclude:
