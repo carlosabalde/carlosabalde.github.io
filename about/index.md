@@ -21,6 +21,7 @@ You can also browse the list of projects below if you want to get a glimpse of w
 - [redis VMOD (Varnish Cache module)](https://github.com/carlosabalde/libvmod-redis).
 - [synth VMOD (Varnish Cache module)](https://github.com/carlosabalde/libvmod-synth).
 - [National Geographic wallpaper downloader for OSX (Python script)](https://github.com/carlosabalde/ngwallpaper).
+- [Varnish Custom Counters PoC (Python script)](https://github.com/carlosabalde/vcc).
 - [Mobile Detect JSON database to VCL converter (Python script)](https://github.com/carlosabalde/mobiledetect2vcl).
 - [Varnish VSL - Sentry integration PoC (Python daemon)](https://github.com/carlosabalde/varnishsentry).
 - [51Degrees.mobi Mobile Detector for Python (Python extension)](http://51degrees.mobi/Support/Documentation/Python.aspx).
