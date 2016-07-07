@@ -17,7 +17,7 @@ De todas las recetas de postres facilotes con Thermomix que he probado últimame
 - 450 g de fresas.
 - 100 g de frambuesas.
 - 1 limón.
-- 200 g de azucar.
+- 200 g de azúcar.
 - 1 yogur natural.
 - Unos 10 bizcochos de soletilla.
 
