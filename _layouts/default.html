@@ -2,9 +2,9 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 
     {% if page.title %}
         <title>{{ page.title }}</title>
@@ -13,20 +13,24 @@
     {% endif %}
 
     {% if page.excerpt %}
-        <meta name="description" content="{{ page.excerpt | strip_newlines | strip_html }}">
+        <meta name="description" content="{{ page.excerpt | strip_newlines | strip_html }}" />
     {% else %}
-        <meta name="description" content="{{ site.description }}">
+        <meta name="description" content="{{ site.description }}" />
+    {% endif %}
+
+    {% if page.image %}
+        <meta property="og:image" content="{{site.base_url}}{{ page.image }}" />
     {% endif %}
 
     {% if site.google_verification %}
-        <meta name="google-site-verification" content="{{ site.google_verify }}">
+        <meta name="google-site-verification" content="{{ site.google_verify }}" />
     {% endif %}
 
     {% feed_meta %}
 
-    <link rel="icon" href="/assets/img/favicon.png">
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+    <link rel="icon" href="/assets/images/favicon.png" />
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/main.css" />
 </head>
 
 <body>

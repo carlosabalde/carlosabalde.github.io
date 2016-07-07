@@ -117,10 +117,9 @@ ul {
             line-height: 150%;
             margin-bottom: 15px;
         }
-        ul {
+        ul, ol {
             font-size: 1em;
-            list-style: circle;
-            margin-left: 30px;
+            margin-left: 40px;
             margin-top: -5px;
             margin-bottom: 5px;
             li {
@@ -131,8 +130,11 @@ ul {
                 }
             }
             @media screen and (max-width: $br) {
-                margin-left: 10px;
+                margin-left: 30px;
             }
+        }
+        ul {
+            list-style: circle;
         }
     }
 }
@@ -159,8 +161,10 @@ ul {
         img {
             margin-top: 10px;
             margin-bottom: 10px;
+            padding: 3px;
+            border: 1px solid $color-dark-grey;
+            max-width: 100%;
             @media screen and (max-width: $br) {
-                width: 100%;
                 margin: auto;
             }
         }

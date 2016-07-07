@@ -17,6 +17,7 @@ gems:
 # Variables.
 name: Carlos Abalde
 description: A selection of random thoughts and useless stuff I write from time to time
+base_url: http://www.carlosabalde.com
 google_verification: null
 google_analytics: UA-11266890-1
 
