@@ -13,12 +13,17 @@ repository: carlosabalde/www.carlosabalde.com
 excerpt_separator: <!--more-->
 gems:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jemoji
 
 # Variables.
 name: Carlos Abalde
 description: A selection of random thoughts and useless stuff I write from time to time
-base_url: http://www.carlosabalde.com
-google_verification: null
+url: http://www.carlosabalde.com
+author: carlosabalde
+logo: /assets/images/me.jpg
+google_site_verification: null
 google_analytics: UA-11266890-1
 
 # SASS.
