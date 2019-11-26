@@ -11,6 +11,7 @@ Hello, my name is Carlos Abalde. I'll eventually update this page with a short b
 
 You can also browse the list of projects below if you want to get a glimpse of what I do with computers. It's a mix of personal pet projects developed during my free time as well as tiny open source projects created during my working hours as a software engineer.
 
+- [PGP Tomb (Go secrets manager)](https://github.com/carlosabalde/pgp-tomb).
 - [gossip VMOD (Varnish Cache module)](https://github.com/carlosabalde/libvmod-gossip).
 - [Zabbix template for VHA Agent](https://github.com/allenta/zabbix-template-for-vha-agent).
 - [cfg VMOD (Varnish Cache module)](https://github.com/carlosabalde/libvmod-cfg).
