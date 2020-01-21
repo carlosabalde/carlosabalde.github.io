@@ -25,6 +25,7 @@ Of course I'm not the first one experiencing this problem. The symptoms have bee
           end
           # config.ssh.insert_key = false
           # config.ssh.username = 'vagrant'
+          config.vbguest.auto_update = false
         end
 
 2. Create the `vagrant` user, add it to the same groups assigned to the `ubuntu` user, set up its SSH key using the insecure Vagrant key pair, etc. Basically, you need to follow the steps in [https://www.vagrantup.com/docs/boxes/base.html](https://www.vagrantup.com/docs/boxes/base.html) to fix what's missing in the base box.
